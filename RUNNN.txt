@@ -1,0 +1,12 @@
+dev server:
+docker-compose up
+
+prod server: 
+docker build .
+docker run -p 8080:80 {image id}
+
+git:
+https://github.com/stanislava-d/docker-react.git
+git init
+git add .
+git commit -m "Initial commit"
